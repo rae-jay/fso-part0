@@ -16,3 +16,18 @@ Ex 0.4:
     Server-->>Browser:JSON file
     Note left of Server:JSON data is rendered in browser
 ```
+
+Ex 0.5:
+
+```mermaid
+    sequenceDiagram
+        Browser->>Server:GET: https://studies.cs.helsinki.fi/exampleapp/spa
+        Server-->>Browser:HTML file
+        Browser->>Server:GET: https://studies.cs.helsinki.fi/exampleapp/main.css
+        Server-->>Browser:CSS file
+        Browser->>Server:GET: https://studies.cs.helsinki.fi/exampleapp/spa.js
+        Server-->>Browser:JS file
+        Browser->>Server:GET: https://studies.cs.helsinki.fi/exampleapp/data.json
+        Server-->>Browser:JSON file
+        Note left of Server:JSON data is rendered in browser
+```
