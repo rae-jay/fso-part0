@@ -31,3 +31,12 @@ Ex 0.5:
         Server-->>Browser:JSON file
         Note left of Server:JSON data is rendered in browser
 ```
+
+Ex 0.6:
+
+```mermaid
+    sequenceDiagram
+        Browser->>Server:POST: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+        Note left of Server:No redirect, data is rendered in browser and sent to server <br/>in the page's JavaScript
+        Server-->>Browser:{"message":"notecreated"}
+```
