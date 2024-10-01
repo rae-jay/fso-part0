@@ -2,8 +2,8 @@
 
 ```mermaid
   graph TD;
-      i don't-->expect this to work;
-      but the-->instructions;
-      i-->found;
-      were-->vague;
+      a[i don't]-->b[expect this to work];
+      c[but the]-->d[instructions];
+      e[i]-->f[found];
+      g[were]-->h[vague];
 ```
